@@ -1,5 +1,5 @@
 before_script:
-  - psql -c 'create database sqlalchemy_utils_test;' -U postgres -w
+  - psql -c 'create database sqlalchemy_utils_test;' -U postgres
 language: python
 
 python:
